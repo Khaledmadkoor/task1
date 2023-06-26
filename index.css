@@ -1,0 +1,43 @@
+
+.zero{
+    display: grid;
+    grid-auto-rows: minmax(300px,auto);
+    grid-template-areas: 
+    "head head para"
+    "khal kha para"
+    ;
+    gap: 20px;
+    margin: 50px;
+}
+.box{
+    background: black;
+    color: white;
+}
+.zeroo{
+    grid-area: head;
+    border-radius:10px;
+    font-size: 80px;
+    padding: 100px;
+    
+}
+.one{
+    grid-area: para;
+    border-radius:10px;
+    font-size: 80px;
+    padding: 100px;
+
+}
+.two{
+    grid-area: khal;
+    border-radius:10px;
+    font-size: 80px;
+    padding: 100px;
+
+}
+.twoo{
+    grid-area: kha;
+    border-radius:10px;
+    font-size: 80px;
+    padding: 100px;
+
+}
